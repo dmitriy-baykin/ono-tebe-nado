@@ -1,1 +1,1 @@
-git@github.com:dmitriy-baykin/ono-tebe-nado.git
+https://github.com/dmitriy-baykin/ono-tebe-nado.git
