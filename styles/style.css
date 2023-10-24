@@ -23,40 +23,38 @@ a {
   list-style: circle;
 }
 
-.header-menu-list-no-bullit {
-  list-style: none;
-}
-
-.header__menu-item.header__menu-item-active {
+.header__menu-item {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.header-logo {
+.header__menu-item.header__menu-item-active {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo {
   display: block;
   width: 148px;
   height: 105px;
 }
 
-.adress {
-  justify-self: end;
-}
-
-address {
+.address {
   font-family: Raleway;
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
   max-width: 240px;
+  justify-self: end;
 }
 
-.telephone,
-.email {
+.address__telephone,
+.address__email {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
-.header__adress {
+.adress__text {
   text-align-last: left;
 }
 
@@ -293,7 +291,7 @@ address {
   align-items: start;
 }
 
-.adress.footer__adress {
+.address.footer__address {
   justify-self: start;
 }
 
