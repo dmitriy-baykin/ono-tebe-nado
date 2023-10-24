@@ -29,7 +29,7 @@ a {
   text-underline-offset: 4px;
 }
 
-.header__menu-item.header__menu-item-active {
+.header__menu-item.header__menu-item_active {
   text-decoration: none;
   list-style: none;
 }
@@ -53,6 +53,7 @@ a {
   font-weight: 400;
   max-width: 240px;
   justify-self: end;
+  line-height: 24.3px;
 }
 
 .address__telephone,
@@ -61,7 +62,7 @@ a {
   text-underline-offset: 4px;
 }
 
-.adress__text {
+.address__text {
   text-align-last: left;
 }
 
@@ -139,7 +140,7 @@ a {
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 16.3px;
   text-align: center;
   margin-right: 78px;
 }
@@ -242,7 +243,7 @@ a {
 .lots__look-more-link {
   margin-left: 40px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -300,10 +301,6 @@ a {
   display: flex;
   flex-direction: column;
   gap: 25px;
-}
-
-.about__text-first {
-  margin-bottom: 20px;
 }
 
 /* секция footer */
