@@ -47,7 +47,7 @@ a {
 }
 
 .address {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
@@ -90,7 +90,7 @@ a {
 .cover__title {
   display: flex;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: 700;
   gap: 20px;
@@ -134,7 +134,7 @@ a {
 
 .cover__description-text {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
@@ -142,12 +142,11 @@ a {
   word-spacing: 20px;
   text-align: center;
   margin-right: 78px;
-  padding: 12px 32px;
 }
 
 .bet-button {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
@@ -175,7 +174,8 @@ a {
   list-style: none;
   gap: 25px;
   margin-bottom: 30px;
-  width: 100%;
+  min-width: 1340px;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
@@ -198,6 +198,7 @@ a {
   padding: 50px 40px;
   color: #fff;
   justify-content: space-between;
+  line-height: 120%;
 }
 
 .card_type_film,
@@ -222,7 +223,7 @@ a {
 
 .card__title {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 120%;
@@ -232,7 +233,7 @@ a {
 
 .card__text {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
@@ -280,7 +281,7 @@ a {
   grid-column-start: 2;
   grid-column-end: 2;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -292,8 +293,8 @@ a {
   grid-column-start: 2;
   grid-column-end: 2;
   color: #000;
-  font-family: Raleway;
-  font-size: 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: normal;
   display: flex;
@@ -329,7 +330,7 @@ a {
 .footer__menu-list-item {
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
 }
 
