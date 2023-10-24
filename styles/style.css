@@ -73,7 +73,7 @@ a {
   z-index: 1;
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 50px 50px;
+  padding: 165px 50px 50px;
   min-height: 757px;
 }
 
@@ -96,7 +96,7 @@ a {
   gap: 20px;
   flex-direction: column;
   text-transform: uppercase;
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
   line-height: 100%;
   margin-bottom: 135px;
 }
@@ -104,14 +104,17 @@ a {
 .aligned-text {
   display: block;
   text-align: left;
+  line-height: 115%;
 }
 
 .aligned-text_center {
   text-align: center;
+  line-height: 100%;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -139,6 +142,7 @@ a {
   word-spacing: 20px;
   text-align: center;
   margin-right: 78px;
+  padding: 12px 32px;
 }
 
 .bet-button {
