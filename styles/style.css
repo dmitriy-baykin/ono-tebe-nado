@@ -60,7 +60,7 @@ a {
 
 .cover {
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url('/images/cover.jpg');
   z-index: 1;
   background-size: cover;
   background-position: center;
