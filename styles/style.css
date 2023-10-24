@@ -1,3 +1,5 @@
+/* секция header */
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -58,9 +60,11 @@ a {
   text-align-last: left;
 }
 
+/* секция main */
+
 .cover {
   position: relative;
-  background-image: url('/images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   z-index: 1;
   background-size: cover;
   background-position: center;
@@ -92,6 +96,7 @@ a {
 }
 
 .aligned-text {
+  display: block;
   text-align: left;
 }
 
@@ -108,7 +113,7 @@ a {
 }
 
 .no-letter-spacing {
-  letter-spacing: normal;
+  letter-spacing: initial;
 }
 
 .cover__description {
@@ -194,15 +199,15 @@ a {
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
@@ -283,6 +288,8 @@ a {
 .about__text-first {
   margin-bottom: 20px;
 }
+
+/* секция footer */
 
 .footer {
   padding: 0px 50px 90px;
