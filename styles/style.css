@@ -20,7 +20,6 @@ a {
 
 .header-menu-list {
   display: flex;
-  flex-direction: row;
   gap: 32px;
   list-style: circle;
 }
@@ -36,6 +35,12 @@ a {
 }
 
 .logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.logo__image {
   display: block;
   width: 148px;
   height: 105px;
@@ -69,6 +74,7 @@ a {
   background-size: cover;
   background-position: center;
   padding: 165px 50px 50px 50px;
+  min-height: 757px;
 }
 
 .overlay {
@@ -90,7 +96,7 @@ a {
   gap: 20px;
   flex-direction: column;
   text-transform: uppercase;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
   line-height: 100%;
   margin-bottom: 135px;
 }
@@ -246,6 +252,7 @@ a {
 .about__column {
   display: grid;
   grid-template-columns: 430px 1fr;
+  gap: 0 25px;
 }
 
 .about__logo {
@@ -267,22 +274,27 @@ a {
 
 .about__title {
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 2;
   color: #000;
   font-family: Raleway;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about__text {
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 2;
   color: #000;
   font-family: Raleway;
   font-size: 25px;
   font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .about__text-first {
